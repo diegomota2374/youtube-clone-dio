@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+
+main{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 20px 40px 0 40px;
+}
+
+.menuLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 146px;
+
+    .youtubeIcon{
+        width: 90px;
+        height: 20px;
+    }
+}
+
+.search{
+    display: flex;
+    width: 404px;
+
+    #search{
+        width: 100%;
+        border: 1px solid #CCCCCC;
+    }
+
+    .searchIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 57px;
+        height: 38px;
+        border: 1px solid #CCCCCC;
+        background-color: #F8F8F8;
+    }
+}
+
+.avatarIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+
+    #avatarIcon{
+        width: 34px;
+        height: 34px;
+    }
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-top: 50px;
+    margin-right: 0;
+    padding-top: 40px;
+    background-color: #F8F8F8;
+}
+
+.watchingVideo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    margin-left: 90px;
+
+    h2{
+        font-size: 20px;
+    }
+
+    #dioVideo{
+        border-radius: 20px;
+        width: 100%;
+    }
+}
+
+.videoAction{
+    width: 90%;
+
+    img{
+        width: 100%;
+    }
+}
+
+.descriptionVideo{
+    width: 60%;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    flex-direction: column;
+    margin-right: 130px;
+    width: 25%;
+    gap: 30px;
+}
+
+.sidebarItem{
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        max-width: 25%;
+        min-width: 33%;
+    }
+
+    h4{
+        margin: 0;
+    }
+}
+
